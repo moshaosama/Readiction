@@ -26,5 +26,5 @@ body {
 }
 
 .Container {
-  @apply mx-20 my-5;
+  @apply mx-20 my-5 max-sm:mx-4;
 }

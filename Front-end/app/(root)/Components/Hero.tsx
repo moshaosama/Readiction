@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className="w-full flex flex-col items-center gap-5 justify-center mt-20">
-        <h1 className="text-5xl font-bold w-[65pc] text-center">
+        <h1 className="text-5xl font-bold w-[65pc] text-center max-sm:text-xl max-sm:w-full">
           Turn your reading into lasting wisdom. Collect{" "}
           <span className="text-[#f66623]">your quotes</span> in one place!
         </h1>

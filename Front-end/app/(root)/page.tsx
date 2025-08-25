@@ -38,7 +38,7 @@ const page = () => {
     <div className="Container">
       <Hero />
       <Text />
-      <div className="flex justify-center gap-10">
+      <div className="flex max-sm:flex-col justify-center gap-10 max-sm:gap-0">
         {CardData.map((cardata, index: number) => {
           return (
             <span key={index}>
